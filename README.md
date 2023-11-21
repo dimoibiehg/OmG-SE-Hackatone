@@ -17,8 +17,10 @@ $ chmod +x ./scripts/run_pipeline.sh
 
 Now, you are ready to run the workflow by running this script file as follows:
 ```bash
-$ ./scripts/run_pipeline.sh
+$ ./scripts/run_pipeline.sh "2022-01-01" "2023-01-01" "./data/fetched" "./data/processed_data.csv" "./models/model" "./data/processed_data.csv" "./predictions.json"
 ```
+
+This script also contains a concrete set of parameters that can be tuned in new domain.
 
 # Monitoring
 
